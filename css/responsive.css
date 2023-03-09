@@ -1,0 +1,72 @@
+@media (min-width: 576px) { 
+    .responsive-nav{
+        width:auto;
+    }
+    .bottom-nav{
+        display: none;
+    }
+
+    .picture{
+        width: 300px;
+        height: 300px;
+    }
+
+    .space{
+        height: 350px;
+    }
+
+    /* dev */
+    /* div#info > h1 {
+          font-size: 1.1rem;
+        }
+        div#info > p {
+          font-size: 0.6rem;
+        } */
+   
+
+ }
+@media (max-width: 576px) { 
+    /* menu.html */
+    .ghost {
+        display: none;
+    }
+    /* dev.html */
+    #img-photo {
+        height: 130px;
+    }
+
+
+ }
+@media (max-width: 311px) { 
+    /* menu */
+    div.card div > img{
+        width: 100px;
+        height: 100px;
+    }
+    div#stars>img{
+        width: 8px;
+        
+    }
+    div#opcoes > div#lanches div > img.rounded-4{
+        width: 100px;
+        height: 106px;
+    }
+    
+    div#opcoes > div#bebidas div > img.rounded-4{
+        width: 100px;
+        height: 106px;
+    }
+
+    /* dev.html */
+    #img-photo{
+        height: 100px;
+    }
+    div#info > h1 {
+        font-size: 1.1rem;
+    }
+    div#info > p {
+        font-size: .5rem;
+    }
+
+   
+ }

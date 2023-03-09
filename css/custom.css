@@ -1,0 +1,95 @@
+/* index */
+
+#main-1{
+    height: 90vh;
+    background: linear-gradient(180deg, rgb(246, 246, 246) 0%, var(--background-color-primary) 100%);
+}
+
+.picture{
+    position: fixed;
+    /* z-index: 100; */
+    background-image: url(../imgs/icons-2/pexels-rodnae-productions-5779654.svg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    
+}
+
+.img-top{
+    position: fixed;
+    background-image: url(../imgs/pexels-rania-alhamed-2454533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    border-radius: 0 0 30px 30px;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+
+}
+
+.presentation{
+    font-size: .8rem;
+    width: 200px;
+}
+
+.space{
+    height: 250px;
+}
+
+.responsive-nav{
+    width: 100%;
+}
+
+
+/* PEDIDOS */
+
+div#info>p{
+    font-size: 10px;
+}
+div#info>h5{
+    font-size: 15px;;
+}
+
+div#stars>img{
+    width: 15px;
+}
+img#add{
+    width: 40px;
+}
+div.card {
+    max-width: auto;
+    max-height: auto;
+}
+div#opcoes > div#lanches{
+    max-height: 40vh;
+}
+div#opcoes > div#bebidas{
+    max-height: 40vh;
+}
+
+div#opcoes > div#lanches div > img.rounded-4{
+    width: 121px;
+    height: 106px;
+}
+
+div#opcoes > div#bebidas div > img.rounded-4{
+    width: 121px;
+    height: 106px;
+}
+
+.sessao-op > p{
+    width: 50%;
+    border-radius: 40px;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var( --background-color-secondary);
+}
+
+/* dev.html */
+#img-photo {
+    width: 150px;
+}
+

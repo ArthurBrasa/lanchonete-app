@@ -1,0 +1,103 @@
+
+
+/* BUTTONS */
+button.button-plus-square{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-left: 15px; 
+}
+button.button-plus-square > i {
+    font-size: 25px;
+}
+
+button.button-plus-square > i:hover{
+    color: rgb(91, 255, 127);
+    opacity: 80%;
+}
+button.button-plus-square > i:active{
+    color: rgb(91, 255, 127);
+    opacity: 100%;
+}
+
+.bottom-nav{
+    text-align: center;
+    background-color: transparent;
+    background-image: url(../imgs/icons-2/Componente\ 10\ –\ 1.svg);
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+.button-nav-2{
+    text-align: center;
+    background-color: transparent;
+    background-image: url(../imgs/icons-2/Componente\ 10\ –\ 1.svg);
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.x{
+    border: 2px solid red;
+}
+
+.button-primary{
+    display: inline;
+    background-color: var(--primary);
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 2px 3px 5px black;
+}
+.button-primary:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+    opacity: 90%;
+}
+.button-primary:active{
+    background-color: white !important;
+    color: var(--primary) !important;
+}
+
+.button-pay{
+   width: 200px;
+   display: inline;
+   background-color: var(--background-color-secondary);
+   /* background-color: var(--primary); */
+}
+.button-pay:hover{
+    background-color: var(--background-color-secondary);
+    cursor: pointer;
+    opacity: 80%;
+}
+.button-pay:active{
+    background-color: var(--white) !important;
+    color: var(--background-color-secondary) !important;
+}
+
+footer h6{
+    font-size: 12px !important;
+}
+
+.link-hover{
+    border-bottom: 2px solid transparent;
+}
+.link-hover:hover{
+    border-bottom: 2px solid var(--secondary);
+}
+
+
+/*  */
+
+.bg-black-custom{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+/* MENU */
+.responsive-nav-2{
+    width: 100%;
+}
+

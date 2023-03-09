@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hamburgueria - Menu</title>
+        <!-- CSS Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- JS Boostrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+        <!-- Font Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+        <!-- Icones Boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+        <style>
+            .b{
+                border: 1px solid red;
+            }
+        </style>
+
+</head>
+<body>
+    <header id="header-pedidos" class="container-lg fixed-top" > 
+        <nav class="navbar">
+          <div class="container-fluid d-flex justify-content-between" style="width: 100%;">
+            <!--  -->
+            
+            <button class="button-nav-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <!-- Pesquisa  -->
+            <form role="search" class="">
+              <input class="form-control rounded-5" style="width: 200px;" type="search" placeholder="Estou com fome de..." aria-label="Search">
+            </form>
+            
+            <!--  -->
+            <div class="responsive-nav-2">
+              <div class="collapse navbar-collapse " id="navbars">
+                <ul class=" navbar-nav me-auto mb-3 mb-sm-0 bg-black-custom" >
+                  <li class=" fw-bold nav-item">
+                    <a class="nav-link link-hover text-black active text-white" aria-current="home" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="fw-bold nav-link link-hover text-black text-white" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="fw-bold nav-link link-hover text-black text-white" href="dev.html">Desenvolvedor</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </nav>
+      </header> 
+
+
+    <div id="opcoes" class="container-lg">
+        <!-- <h1 class="shadow text-center">Lanches</h1> -->
+        
+        <!-- Titulo -->
+        <div class="sessao-op d-flex justify-content-center mt-5 pt-3">
+            <p class="d-inline shadow text-center opacity-75">Lanches</p>
+        </div>
+        
+        <div id="lanches" class="container-fluid overflow-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-3">
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">Misto quente</h5>
+                            <p class="px-3 p-hidden">Pão, presunto e queijo.</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/pexels-chevanon-photography-1108117.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 4,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img src="imgs/icons/star-fill.svg" alt="">
+                                <img src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">Bomba</h5>
+                            <p class="px-3">Pão, hamburger, salsicha,presunto,queijo, ovo, alface e tomate.</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/pexels-cottonbro-studio-4253708.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 8,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">X-tudo</h5>
+                            <p class="px-3">Pão, hamburger, presunto, queijo, ovo, batata-palha, milho, bacon.</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/pexels-jonathan-borba-2983098.jpg" alt="" width="121" height="106px">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 17,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">X-tudo de frango</h5>
+                            <p class="px-3">Pão, peito de frango, presunto, queijo, ovo, batata-palha, milho, bacon.</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/pexels-jonathan-borba-2983103.jpg" alt="" >
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 19,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">X-brocado</h5>
+                            <p class="px-3">Pão, 2 hamburguers, presunto, queijo, bacon, milho, alface, tomate, salsicha</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/pexels-pixabay-327158.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 25,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+        </div>
+        
+        <!-- TITULO -->
+        <div class="sessao-op d-flex flex-column justify-content-center align-items-center">
+            <p class="d-inline shadow text-center opacity-75">Bebibas</p>
+        </div>
+        
+
+        <div id="bebidas" class="container-fluid overflow-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-3">
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">Heineken</h5>
+                            <p class="px-3">Garrafa 330ml</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/beer-pexels-matheus-bertelli-11749397.jpg" alt="" width="121" height="106px">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 8,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">Refrigerante lata</h5>
+                            <p class="px-3">lata de 350ml</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/coca.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 5,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg container-fluid">
+                    <div class="d-flex flex-nowrap justify-content-between align-content-center ">
+                        <div id="info" class="pt-3 pe-3">
+                            <h5 class="border-bottom ">Sucos</h5>
+                            <p class="px-3">Sucos naturais dos sabores de Laranja, limão e Maracuja</p>
+                        </div>
+                        <div class="p-1 pt-4">
+                            <img class="rounded-4 shadow" src="imgs/comidas/juice.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-between p-2">
+                        <div>R$ 6,00</div>
+                        <div class="d-flex justify-content-between">
+                            <div id="stars" class="mx-1">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-fill.svg" alt="">
+                                <img  src="imgs/icons/star-half.svg" alt="">
+                                <img  src="imgs/icons/star.svg" alt="">
+                            </div>
+                            <button class="button-plus-square">
+                                <i class="bi bi-plus-square-fill"></i>
+                            </button>
+                            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 100px;"></div>   
+            <div class="ghost"style="height: 100px;"></div>   
+        </div>
+    </div>
+
+    <div class="container-lg fixed-bottom d-flex justify-content-between px-4 bg-white p-4 px-3 px-lg-5">
+        <!-- <button class="btn button-pay text-white fw-bold rounded-5 ">Pagamento</button> -->
+        
+        <a href="default-error.html" class="btn button-pay text-white fw-bold rounded-5">Pagamento</a>
+        <a href="default-error.html" class="btn rounded-5 btn-danger"><i class="bi bi-cart4"></i></a>
+    </div>
+    
+</body>
+</html>
